@@ -1,0 +1,231 @@
+/* BASE STYLES */
+body{
+	color: #070A1B;
+	background-color: #D1D5D6;
+	font-family: 'minion-3-display', serif;
+	font-weight: 400;
+	font-style: normal;
+}
+
+p{
+	font-size: 30px;
+}
+
+/*GRID*/
+.full-width{
+	width: 1400px;
+	margin: 0 auto;
+    overflow: auto;
+}
+
+.half-width{
+	width: 700px;
+	float: left;
+}
+
+.third-width{
+	width: 466px;
+	float: left;
+}
+
+/*HEADER STYLES*/
+header{
+	background-color: #82CFC2; /* Teal background */
+	height: 800px;
+}
+
+nav{
+	font-family: 'futura-pt-condensed',sans-serif;
+	float: right;
+	font-weight: 700;
+	margin-top: 0;
+	font-size: 24px;
+	padding: 5px 125px;
+}
+
+nav ul li{
+    display: inline-block;
+    margin: 25px;
+}
+
+nav ul li a {
+	color: #070A1B;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	color: #D1D5D6;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+h1{
+	font-family: 'futura-pt', sans-serif;
+	font-size: 64px;
+	padding:15px;
+	margin: 0;
+}
+
+h2{
+	font-family: 'minion-3-display', serif;
+	font-size: 48px;
+	margin:  27px 0 172px 18px;
+}
+
+/*ABOUT STYLES*/
+h3{
+	font-family: 'futura-pt', sans-serif;
+	font-size: 28px;
+	font-weight: 700;
+	margin-top: 200px;
+	margin-bottom: 25px;
+	padding: 10px;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+h4{
+	font-family: 'futura-pt', sans-serif;
+	font-size: 26px;
+}
+
+#about{
+	height: 1000px;
+	background-color: #DB7E78;
+	text-align: center;
+	padding: 25px;
+}
+
+#about img{ /*prof photo of me*/
+	padding: 9px;
+}
+
+.circle-frame { /*clip photo round*/
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+}
+
+.circle-border{ /*add border to photo*/
+ border-radius: 50%;
+  background:#EB3C6A;
+ }
+
+#about h4{
+	margin-top: 200px;
+	margin-bottom: 0;
+	padding: 10px;
+}
+
+#about p{
+	padding: 35px;
+	line-height: 1.6;
+}
+
+/*WORK STYLES*/
+#work{
+	height: 840px;
+	background-color: #070A1B;
+	color: #D1D5D6;
+	text-align: center;
+}
+
+#work h3{
+	margin-top:102px;
+	margin-bottom:72px;
+}
+
+#work img {
+  border: 3px outset #82CFC2; /* Teal border */
+  border-radius: 4px;  /* Rounded border */
+  padding:1px;
+  width: 400px; /* Set a small width */
+}
+
+/* Add a hover effect (blue shadow) */
+#work img:hover {
+  box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+}
+
+#work h4{
+	margin-top:40px;
+	margin-bottom:10px;
+}
+
+#work p{
+	margin: 0;
+}
+
+/*FOOTER STYLES*/
+#contact{
+	height: 640px;
+	text-align: center;
+}
+
+#contact h3{
+	margin-top:102px;
+	margin-bottom:72px;
+}
+
+#contact ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+#contact a {
+	color: #070A1B;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+#contact a:hover  {
+	color: #EB3C6A;
+	text-decoration: none;
+	font-size: 30px;
+}
+
+/*FONT STYLES*/
+.oblique-font-style{
+	font-style: oblique;
+}
+
+.pink-font-color{
+	color: #EB3C6A;
+}
+
+.cream-font-color{
+	color: #D1D5D6;
+}
+
+.script{
+	font-family: bello-pro, sans-serif;
+	font-size:72px;
+	padding:25px 0;
+}
+
+/*ETC*/
+
+.gallery-spacing{
+	margin: 10px;
+}
+
+.cream-hi-lite{
+	background-color: #D1D5D6;
+}
+
+.violet-grad{
+	background: -webkit-linear-gradient(left, #6522A8 , #9F20A8);
+	background: -o-linear-gradient(right, #6522A8, #9F20A8);
+   background: -moz-linear-gradient(right, #6522A8, #9F20A8);
+   background: linear-gradient(to right, #6522A8, #9F20A8); 
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.deep-blue-grad{
+	color: blue;
+}
+
